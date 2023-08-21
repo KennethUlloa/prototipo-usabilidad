@@ -1,0 +1,9 @@
+header {
+    padding: 22px 22px;
+    background-color: var(--fondo-2);
+}
+
+.select {
+    font-weight: bold;
+    font-size: 18px;
+}

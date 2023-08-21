@@ -1,0 +1,28 @@
+@use '../colors.scss' as color;
+
+.portada {
+    border-radius: 15px;
+    width: 208px;
+    height: 304px;
+}
+
+.portada.estreno {
+    border: 5px solid color.$acento-2 ;
+}
+
+.portada.preestreno {
+    border: 5px solid color.$acento-1 ;
+}
+
+.icon > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.icon svg {
+    width: 14px;
+    height: 14px;
+}

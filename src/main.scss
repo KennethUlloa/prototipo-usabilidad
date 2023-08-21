@@ -1,0 +1,27 @@
+@use 'colors';
+
+@each $name, $val in colors.$color-list {
+    .bg-#{$name} {
+        background: $val;
+    }
+
+    .txt-#{$name} {
+        color: $val;
+    }
+
+    .fill-#{$name} {
+        fill: $val;
+        * {
+            fill: $val;
+        }
+    }
+
+    .stroke-#{$name} {
+        stroke: $val;
+        * {
+            stroke: $val;
+        }
+    }
+}
+
+.w-fit {width: fit-content;}
